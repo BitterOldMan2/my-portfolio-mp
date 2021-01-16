@@ -1,0 +1,40 @@
+#skills {
+  min-height: 80vh;
+}
+
+.skills {
+  &-title {
+    color: #333;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    letter-spacing: 2px;
+  }
+  &-subtitle {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 2rem;
+  }
+}
+
+.list-bullets {
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.list-bullets li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.list-bullets li::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  border: 1px solid $primary-color;
+  display: block;
+  margin-right: 1rem;
+}
