@@ -33,7 +33,7 @@ export const projectsData = [
     img: 'emeraldDream.png',
     title: 'Emerald Dream Luxury',
     info:
-      'Emerald dream  is my first professional project i developed the project using HTML5, Sass and javaScript',
+      'Emerald dream is my first professional project. I developed the project using HTML5, Sass, and JavaScript',
     info2: 'I was responsible for the design  and the development of the project  ',
     url: 'https://www.emeraldreamluxury.com/',
     repo: 'https://github.com/BitterOldMan2/Emerald-Dream-3.git',
@@ -41,7 +41,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'quizGame.png',
-    title: 'React-Redux quiz game',
+    title: 'Quizy',
     info: 'A simple and fun  quiz game  made with  React , Redux and quizApi ',
     info2: 'I was responsible for the design  and the development of the project',
     url: 'https://react-redux-quizz.herokuapp.com/',
@@ -55,20 +55,20 @@ export const skillsData = [
   {
     title: 'FRONT-END',
     skill1: 'HTML5 , CSS , JavaScript ,TypeScript',
-    skill2: 'React , React-Native , Redux , Gatsby',
+    skill2: 'React , React-Native , Redux',
     skill3: 'Sass , Bootstrap , React-Bootstrap',
   },
   {
     title: 'BACK-END',
-    skill1: 'Nodejs , Express',
-    skill2: 'Mongo , Mongoose',
+    skill1: 'NodeJS , ExpressJS',
+    skill2: 'MongoDB , Mongoose',
     skill3: 'Rest-API , MVC Architecture',
   },
   {
     title: 'MORE-SKILLS',
     skill1: 'Git version control , Git Bash',
     skill2: 'Postman, Mongo Compass',
-    skill3: 'Netify, heroku',
+    skill3: 'Netify, Heroku',
   },
 ];
 
@@ -96,18 +96,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'facebook',
-      url: 'https://www.facebook.com/mike.patt.7545',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/michael-pattas-9b9082203/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/MichaelPattas',
     },
   ],
 };
