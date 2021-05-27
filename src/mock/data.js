@@ -23,7 +23,7 @@ export const aboutData = {
   I've always had a passion for technology and i've always wanted to find a way to express this passion .I've finally found it  `,
   paragraphTwo: ``,
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '',
 };
 
 // PROJECTS DATA
