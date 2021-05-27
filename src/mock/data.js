@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
@@ -48,7 +49,7 @@ export const projectsData = [
   },
 ];
 
-//SKILLS
+// SKILLS
 
 export const skillsData = [
   {
@@ -56,24 +57,18 @@ export const skillsData = [
     skill1: 'HTML5 , CSS , JavaScript ,TypeScript',
     skill2: 'React , React-Native , Redux , Gatsby',
     skill3: 'Sass , Bootstrap , React-Bootstrap',
-    skill4: 'Axios , Fetch',
-    skill5: 'Responsive design',
   },
   {
     title: 'BACK-END',
-    skill1: 'Nodejs , Express , ',
+    skill1: 'Nodejs , Express',
     skill2: 'Mongo , Mongoose',
     skill3: 'Rest-API , MVC Architecture',
-    skill4: 'Authorization , Json Web Token',
-    skill5: 'stripe',
   },
   {
     title: 'MORE-SKILLS',
-    skill1: 'Docker , Kubernetes , ',
-    skill2: 'Git version control , Git Bash',
-    skill3: 'Adobe XD, affinity designer',
-    skill4: 'Postman, Mongo Compass',
-    skill5: 'Amazon Web Services, Netify, heroku',
+    skill1: 'Git version control , Git Bash',
+    skill2: 'Postman, Mongo Compass',
+    skill3: 'Netify, heroku',
   },
 ];
 

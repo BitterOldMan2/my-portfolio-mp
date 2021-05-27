@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import PortfolioContext from '../../context/context';
 import Fade from 'react-reveal/Fade';
+import PortfolioContext from '../../context/context';
 
 const Skills = () => {
   const { skills } = useContext(PortfolioContext);
@@ -19,7 +19,7 @@ const Skills = () => {
     }
   }, []);
 
-  const renderSkills = skills.map(({ title, skill1, skill2, skill3, skill4, skill5 }) => {
+  const renderSkills = skills.map(({ title, skill1, skill2, skill3 }) => {
     return (
       <Col className="mb-4" md={4} sm={6}>
         <div className="card shadow mb-4">
@@ -29,8 +29,6 @@ const Skills = () => {
               <li>{skill1}</li>
               <li>{skill2}</li>
               <li>{skill3}</li>
-              <li>{skill4}</li>
-              <li>{skill5}</li>
             </ul>
           </div>
         </div>
