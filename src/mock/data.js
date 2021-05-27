@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `I'm Michael Pattas i'm  a full-stuck developer based in Cardiff , Wales.
   I've always had a passion for technology and i've always wanted to find a way to express this passion .I've finally found it  `,
-  paragraphTwo: `I love working with JavaScript and its  framewors like React Expresss and Gatsby`,
+  paragraphTwo: ``,
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
