@@ -33,7 +33,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'emeraldDream.png',
+    img: 'emeraldDream.jpg',
     title: 'Emerald Dream Luxury',
     info:
       'Emerald dream is my first professional project. I developed the project using HTML5, Sass, and JavaScript',
