@@ -19,9 +19,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `I'm Michael Pattas i'm  a full-stuck developer based in Cardiff , Wales.
-  I've always had a passion for technology and i've always wanted to find a way to express this passion .I've finally found it  `,
-  paragraphTwo: ``,
+  paragraphOne: `
+
+  I'm Michael Pattas a full-stack developer based in Cardiff, Wales.
+  I love designing and  developing web and mobile apps using various JavaScript Technologies such as React, React native for the front-end, and NodeJS with SQL and NoSQL databases like MongoDB and PostgreSQL on the back-end 
+   `,
+  paragraphTwo: `I would love to join and evolve into a friendly and professional team `,
   paragraphThree: '',
   resume: '',
 };
